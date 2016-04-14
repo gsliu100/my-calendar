@@ -14,3 +14,4 @@
 > changeListener为用户改变日期时执行的函数，接收一个对象参数cDate,
 > cDate包含year,month,date属性用于获取用户选择的日期信息。
 
+[请参见样例](https://github.com/gsliu100/my-calendar/blob/master/index.html)
