@@ -21,8 +21,8 @@ body,html,tr,td,table,span,div{
 	cursor: pointer;
 }
 #cMyTable tr td.haveDate:hover{
-	background-color: #999;
-	color:white;
+	background-color: #999!important;
+	color:white!important;
 }
 #cHeader{
 	height:35px;

@@ -13,6 +13,12 @@
 			width:300px;
 			color:#666;
 		}
+
+		#youChoose{
+			line-height: 35px;
+			border-top:1px solid #999;
+			color:#666;
+		}
 	</style>
 </head>
 <body>
@@ -20,12 +26,12 @@
 	<div id="myRili">
 		
 	</div>
-
+	<span id="youChoose"></span>
 	<script>
 
 		myC('#4CAF50','#4CAF50','#F44336',function(cDate){
 
-			alert(cDate.year+'-'+cDate.month+'-'+cDate.date);
+			document.getElementById('youChoose').innerHTML = (cDate.year+'-'+cDate.month+'-'+cDate.date);
 
 		});
 
